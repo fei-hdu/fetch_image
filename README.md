@@ -1,4 +1,4 @@
-## auto fetch image in the list from google flickr bing
+## Automatically fetch images in the list from google, flickr, and bing (.com)
 
 ### google
 
@@ -16,7 +16,7 @@ ref https://secure.flickr.com/services/api/explore/flickr.photos.search
 
 ### bing
 
-due to have no appid
+because there is no appid for bing.com
 
 #### dirty hacker
 
@@ -34,9 +34,9 @@ get full size link
 
 ### 1. edit list.lst
 
-content two column query and num
+contents: two column query and num
 
-if num is empty ,num is default 50.
+if num is empty, num is default 50.
 
 multiwords split by one space ' 
 '
@@ -46,35 +46,35 @@ words and num split by more then two spaces
 
 	$python2 fetch.py
 
-which website you need, please uncomment it in fetch.py.
+which website you need, please uncomment it in `fetch.py`.
 
 ### Depands:
 
-wget  or  aria2c or none
+**wget**  or  **aria2c** or none
 
-which downloader you have, please uncomment it in gl.py fkr.py bg.py.
+which downloader you have, please uncomment it in `gl.py`, `fkr.py`, and `bg.py`.
 
-** Notice: **
+**Notice:**
 
-IF flickr api_key is Error, please modify fkr.py following the comment
+IF flickr `api_key` is Error, please modify `fkr.py` following the comment
 
 ## TODO
 
-- add UTF8 support                   ----ok!
-- add update flickr api_key method   ----ok!
-- add try exception else             ----ok!
-- add multiwords support             ----ok!
-- add interior download without need other download addition     ----ok!
-- add bing image search fetch        ----ok!
-- add aria2 to download the image    ----ok!
-- add flikr image search fetch       ----ok!
-- add read words form list.lst       ----ok!
-- add wget to download the image     ----ok!
-- add google image search fetch      ----ok!
+    add UTF8 support                   ----ok!
+    add update flickr api_key method   ----ok!
+    add try exception else             ----ok!
+    add multiwords support             ----ok!
+    add interior download without need other download addition     ----ok!
+    add bing image search fetch        ----ok!
+    add aria2 to download the image    ----ok!
+    add flikr image search fetch       ----ok!
+    add read words form list.lst       ----ok!
+    add wget to download the image     ----ok!
+    add google image search fetch      ----ok!
 
 enjoy it!
 
-power by lvzongting@gmail.com & gaofeihifly@gmail.com
+power by lvzongting AT gmail.com & gaofeihifly AT gmail.com
 
-西电开源社区
+[西电开源社区](http://linux.xidian.edu.cn/)
 
